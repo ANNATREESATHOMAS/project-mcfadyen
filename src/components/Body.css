@@ -1,0 +1,57 @@
+.main_top_left{
+    margin-left: 20px;
+    float: left;
+    border:1px solid rgb(209, 208, 208);
+    height: 400px;
+    width:350px
+}
+.img2{
+    float: left;
+    margin-left: 30px;
+}
+.imag{
+    float: left;
+    margin-left: 20px; 
+}
+.main_top_middle{
+    float: left;
+    margin-left: 30px;
+}
+.star{
+    float:left;
+    margin-left: -5px;
+}
+.reviews{
+    text-decoration:none;
+}
+.button1{
+   background-color: rgb(49, 171, 220);
+    color: white;
+}
+.button2{
+    margin-left: 10px;
+    background-color: blue;
+    color: white ;
+}
+.icon{
+    margin-left: 60px;
+    margin-top: -20px;
+}
+.tag{
+    text-decoration: none;
+}
+/* .text-center{
+    width:"50px"
+} */
+.slide{
+    display: flex;
+    justify-content: space-between;
+}
+.main_bottom{
+    margin-top: 150px;
+}
+.slider{
+    width:200px;
+    margin-left: 5px;
+    text-align: center;
+}

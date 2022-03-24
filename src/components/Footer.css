@@ -1,0 +1,30 @@
+.footer{
+    background-color: black;
+    color: rgb(194, 187, 187);
+    margin-top: 150px;
+}
+.foot{
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    width:313px;
+}
+.title{
+    color:white
+}
+button{
+    background-color: blue;
+    border-color: blue;
+    margin-left: 5px;
+    color:white;
+}
+.image{
+    margin-left: 10px;
+}
+h5{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
