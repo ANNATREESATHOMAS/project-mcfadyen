@@ -1,13 +1,21 @@
+.main_top{
+    padding: 5px;
+}
 .main_top_left{
-    margin-left: 20px;
     float: left;
     border:1px solid rgb(209, 208, 208);
-    height: 400px;
-    width:350px
+    height: 370px;
+    width:350px;
 }
 .img2{
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
+}
+.imagg{
+    margin-left:50px ;
+}
+.tab{
+    text-decoration: none;
 }
 .imag{
     float: left;
@@ -15,23 +23,49 @@
 }
 .main_top_middle{
     float: left;
-    margin-left: 30px;
+    width:530px;
+    overflow: hidden;
 }
 .star{
     float:left;
-    margin-left: -5px;
+}
+.star1{
+    float:left;
+    margin-left: 5px;
+}
+.compare{
+    margin-left: 200px;
+}
+.comparee{
+    text-decoration: none;
+     margin-left: 10px;
+}
+.comparebox{
+    margin-top: -25px;
+}
+.revieww{
+    margin-left: 15px;
+    margin-top: -15px;
 }
 .reviews{
     text-decoration:none;
 }
+.list{
+    margin-left: -15px;
+}
 .button1{
    background-color: rgb(49, 171, 220);
     color: white;
+    border-color: rgb(49, 171, 220);
+    height: 40px;
+    width: 150px;
 }
 .button2{
     margin-left: 10px;
     background-color: blue;
     color: white ;
+    height: 40px;
+    width: 150px;
 }
 .icon{
     margin-left: 60px;
@@ -40,18 +74,46 @@
 .tag{
     text-decoration: none;
 }
-/* .text-center{
-    width:"50px"
-} */
-.slide{
-    display: flex;
-    justify-content: space-between;
+.main_top_right{
+    height: 500px;
+    width:350px;
+    overflow: hidden;
+}
+.cardhf{
+text-align:center;
 }
 .main_bottom{
     margin-top: 150px;
 }
-.slider{
-    width:200px;
-    margin-left: 5px;
-    text-align: center;
+.box{
+    display: none;
 }
+@media(min-width:800px){
+    #box5{
+        display:block;
+    }
+}
+@media(max-width:450px){
+    #box6{
+        display:block;
+    }
+}
+.slide{
+    float:left;
+    padding: 10px;
+    width: 250px;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width:1300px;
+    overflow: hidden;   
+}
+.sliderbox
+{
+    height: 350px;
+    align-items: center;
+    overflow: hidden;
+}
+

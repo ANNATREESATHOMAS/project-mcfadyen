@@ -6,10 +6,10 @@ import Footer from './Footer'
 
 function App() {
   return (
-    <div>
-    <Header />
-    <Body />
-    <Footer />
+    <div className="containerFluid" style={{ overflow: "hidden" }}>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
